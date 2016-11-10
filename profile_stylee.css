@@ -1,0 +1,56 @@
+body .display {
+  margin-left: 23.5rem;
+  width: 60%;
+  height: 40rem;
+  border: 2px solid gray; }
+body .thumbs {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 15rem;
+  position: relative; }
+body .th {
+  border: 2px solid blue;
+  width: 20rem;
+  height: 10rem;
+  position: absolute;
+  margin-top: 2.5rem;
+  background-size: cover;
+  transition: 2s; }
+  body .th:hover {
+    filter: grayscale(100%); }
+body .f1 {
+  margin-left: 1rem; }
+body .f2 {
+  margin-left: 25rem; }
+body .f3 {
+  margin-left: 49rem; }
+body .f4 {
+  margin-left: 71rem; }
+body .plus {
+  height: 2rem;
+  width: 2rem;
+  background-color: #3897f0; }
+body .content {
+  height: 5rem;
+  width: 6rem;
+  margin: 2rem;
+  position: relative;
+  background-color: #82530d;
+  animation: mymove 5s infinite; }
+@keyframes mymove {
+  0% {
+    top: 0px; }
+  25% {
+    top: 200px; }
+  50% {
+    top: 50px; }
+  75% {
+    top: 100px; }
+  100% {
+    top: 0px; } }
+body .border {
+  border: 3px dashed red; }
+
+/*# sourceMappingURL=profile_stylee.css.map */

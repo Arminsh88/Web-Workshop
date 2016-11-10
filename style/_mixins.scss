@@ -1,0 +1,18 @@
+@mixin float-margin($margin, $float){
+  @if $float == 'right'{
+   float: right;
+    margin:2 * $margin;
+  }
+  @else{
+    float: left;
+    margin: $margin;
+  }
+}
+
+@mixin shape($size, $color, $border-radius){
+
+  height:$size;
+  width: $size;
+  background-color: $color;
+  border-radius: $border-radius;
+}

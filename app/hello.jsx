@@ -13,7 +13,7 @@ var Hello = React.createClass({
 
 
     render:function () {
-        return(<p>Hello World! from {this.state.name} </p>)
+        return(<p>{this.props.a + this.props.b} </p>)
 
     }
 });
